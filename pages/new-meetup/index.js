@@ -30,7 +30,7 @@ const NewMeetupPage = () => {
           content="Browse a huge list of highly active React meetups!"
         />
       </Head>
-      <NewMeetupForm onAddMeetup={addMeetupHandler} />;
+      <NewMeetupForm onAddMeetup={addMeetupHandler} />
     </>
   );
 };
